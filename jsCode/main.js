@@ -3,7 +3,7 @@ function txtFocused(t){
 	if(t.value==""){	
 		text=t.previousElementSibling;
 		box =t.parentElement;
-		text.style.transform="scale(1) translate(0px,0px)";
+		text.style.transform="scale(1) translate(0%,0%)";
 		box.style.borderRadius="10px";
 		box.style.border="1px solid aqua";
 		text.style.color="silver";
@@ -15,7 +15,7 @@ function txtUnfocused(t){
 		box =t.parentElement;
 		box.style.border="none";
 		box.style.borderBottom="1px solid cornflowerblue";
-		text.style.transform="scale(1.8) translate(18px,18px)";
+		text.style.transform="scale(1.8) translate(10%,80%)";
 		box.style.borderRadius="0px";
 		text.style.color="grey";
 	}else{

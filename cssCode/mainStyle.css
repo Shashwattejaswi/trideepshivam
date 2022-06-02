@@ -114,7 +114,7 @@
 }
 .topname{
 	color:grey;
-	transform:scale(1.6) translate(18px,18px);
+	transform:scale(1.6) translate(10%,80%);
 	transition:all .2s linear;
 }
 
@@ -130,7 +130,7 @@
 	font-size:18px;
 	transition: .2s linear; 
 		}
-	.circleTextboxgk:focus{border-color: #fe9d07;}
+.circleTextboxgk:focus{border-color: #fe9d07;}
 
 .outlineTextboxaajtak{
       border:3px solid rgb(74,147,95);
@@ -291,7 +291,7 @@
 	width:30px;
 	border:3px solid gray;
 	background:gray;
-	border-radius:50%;
+	border-radius:10px;
 	box-shadow:2px 2px 2px silver;
 	position:relative;
 	transition:all .2s;
