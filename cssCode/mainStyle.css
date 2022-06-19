@@ -264,22 +264,24 @@
 .labelTextboxaajtak{
 	width:180px;
 	border:none;
+	position:relative;
+	padding:0px;
+	margin:2px;
 		}
 .labelTextboxaajtak input{
 	font-size:15px;
 	width:200px;
-	height:48px;
+	height:24px;
 	outline:none;
 	border:2px solid skyblue;
 	border-width:25px 2px 2px 2px;
 	border-radius:5px 5px 5px 5px;
 	padding:1px 5px 1px 5px ;
-	transition: all .2s;
 	}
 .labelTextboxaajtak label{
-	position:relative;
-	top:21px;
-	left:10px;
+	position:absolute;
+	top:4px;
+	left:5px;
 	color:white;
 	font-size:15px;
 	font-family:arial;
