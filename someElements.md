@@ -14,10 +14,10 @@ describe here all the new methods with argument and the description.
 
 html:
 
-    <fieldset class='txtcontainer'>
- 	    <legend class='topname'>[your text which will be displayed as placeholder]</legend>
- 	    <input type='text' class='contactTxt' onfocusout='txtUnfocused(this)' onfocus='txtFocused(this)'>
-    </fieldset>
+		<fieldset class='txtcontainer'>
+			<legend class='topname'>[your text which will be displayed as placeholder]</legend>
+			<input type='text' class='contactTxt' onfocusout='txtUnfocused(this)' onfocus='txtFocused(this)'>
+		</fieldset>
     
 description: use above html code to create your special effect textbox like plaeholder will be transferred to the top of the text box with transition. use mentioned js and css cdn link.
 
